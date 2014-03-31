@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ASSETS_AddAssetsToBasket" xml:space="preserve">
+    <value>Add to Cart</value>
+  </data>
+  <data name="ASSETS_AddAssetTypeByName" xml:space="preserve">
+    <value>Adding a assetType</value>
+  </data>
+  <data name="ASSETS_AddAsset_Child_NotExist" xml:space="preserve">
+    <value>The asset of SpecificId {0} child of the asset id {1} does not exist in the database.</value>
+  </data>
+  <data name="ASSETS_AddAsset_Parent_NotExist" xml:space="preserve">
+    <value>The asset of SpecificId {0} parent asset id {1} does not exist in the database.</value>
+  </data>
+  <data name="ASSETS_CheckAssetField" xml:space="preserve">
+    <value>Verification of the existence of the asset {0}</value>
+  </data>
+  <data name="ASSETS_DeleteAsset" xml:space="preserve">
+    <value>Deleting an asset</value>
+  </data>
+  <data name="ASSETS_DeleteAsset_Error" xml:space="preserve">
+    <value>Encountered Error while deleting an asset</value>
+  </data>
+  <data name="ASSETS_DeleteAsset_Full" xml:space="preserve">
+    <value>Error encountered while deleting an asset</value>
+  </data>
+  <data name="ASSETS_DeleteAsset_Short" xml:space="preserve">
+    <value>Deleting asset {0}</value>
+  </data>
+  <data name="ASSETS_DeleteAsset_Success" xml:space="preserve">
+    <value>The asset {0} has-been removed successfully</value>
+  </data>
+  <data name="ASSETS_Exception" xml:space="preserve">
+    <value>The asset id {0} [SpecificId: {1}] type {2} could not be inserted because the constraint &lt;b&gt; acyclicity_constraint &lt;/ b&gt; prohibits the current asset have children and that One of these children is a parent.</value>
+  </data>
+  <data name="ASSETS_Exception_Full" xml:space="preserve">
+    <value>An error was encountered while adding an asset</value>
+  </data>
+  <data name="ASSETS_Exception_Short" xml:space="preserve">
+    <value>Adding an asset</value>
+  </data>
+  <data name="ASSETS_GetAllAssetChildren" xml:space="preserve">
+    <value>Retrieving children asset {0}</value>
+  </data>
+  <data name="ASSETS_GetAllAssetChildrenIds" xml:space="preserve">
+    <value>ASSETS_GetAllAssetChildrenIds {0}</value>
+  </data>
+  <data name="ASSETS_GetAllAssetParents" xml:space="preserve">
+    <value>Retrieving relatives of asset {0}</value>
+  </data>
+  <data name="ASSETS_GetAllAssets" xml:space="preserve">
+    <value>Recovery of assets</value>
+  </data>
+  <data name="ASSETS_GetAssetChildrenLevelOne" xml:space="preserve">
+    <value>Retrieving Children Level 1</value>
+  </data>
+  <data name="ASSETS_GetAssetParentsLevelOne" xml:space="preserve">
+    <value>Retrieving relatives of asset {0}</value>
+  </data>
+  <data name="ASSETS_GetAssetPublicationStatus" xml:space="preserve">
+    <value>State recovery of the asset</value>
+  </data>
+  <data name="ASSETS_GetBroadcastInfo" xml:space="preserve">
+    <value>Retrieving BroadCastInfos of asset Id {0}</value>
+  </data>
+  <data name="ASSETS_GetBroadcastInfo_Comment" xml:space="preserve">
+    <value>Media release dates.</value>
+  </data>
+  <data name="ASSETS_GetBroadcastInfo_Comment_First" xml:space="preserve">
+    <value>Release dates of other media in the same program.</value>
+  </data>
+  <data name="ASSETS_GetChildrenLevelOneSpecificIds" xml:space="preserve">
+    <value>Recovery of assets direct children of the asset {0}</value>
+  </data>
+  <data name="ASSETS_GetFieldsListByAssetId" xml:space="preserve">
+    <value>Retrieving metadata fields</value>
+  </data>
+  <data name="ASSETS_GetFileUrlByModsWebserice_Full" xml:space="preserve">
+    <value>Error retrieving the url of the specific asset id {0}, {1} title</value>
+  </data>
+  <data name="ASSETS_GetFileUrlByModsWebserice_Short" xml:space="preserve">
+    <value>Retrieving URL from Mods</value>
+  </data>
+  <data name="ASSETS_GetMediaDetails_Full" xml:space="preserve">
+    <value>An error was encountered while retrieving the video associated with asset</value>
+  </data>
+  <data name="ASSETS_GetMediaDetails_Short" xml:space="preserve">
+    <value>Recovery associated with the video asset</value>
+  </data>
+  <data name="ASSETS_GetTypeRelationByName" xml:space="preserve">
+    <value>Retrieving the type of relationship: {0}</value>
+  </data>
+  <data name="ASSETS_IsAssetPublished" xml:space="preserve">
+    <value>Verification of the existence of the asset {0}</value>
+  </data>
+  <data name="ASSETS_Relation" xml:space="preserve">
+    <value>Unable to delete the relationships</value>
+  </data>
+  <data name="ASSETS_RemoveAssetsFromBasket" xml:space="preserve">
+    <value>Removing the basket</value>
+  </data>
+  <data name="ASSETS_RemoveAssetsFromBasket_Success" xml:space="preserve">
+    <value>Media removed from the cart successfully.</value>
+  </data>
+  <data name="ASSETS_UpdateAsset_Exception" xml:space="preserve">
+    <value>The asset id {0} [SpecificId: {1}] type {2} could not be inserted because the constraint &lt;b&gt; acyclicity_constraint &lt;/ b&gt; prohibits the current asset have children and that One of these children is a parent.</value>
+  </data>
+  <data name="ASSETS_UpdateAsset_Exception_Full" xml:space="preserve">
+    <value>An error was encountered while updating an asset</value>
+  </data>
+  <data name="ASSETS_UpdateAsset_Exception_Short" xml:space="preserve">
+    <value>Updating an asset</value>
+  </data>
+  <data name="ASSETS_UpdateAsset_Image_CannotDelete" xml:space="preserve">
+    <value>The picture {0} could not be served &lt;br /&gt;</value>
+  </data>
+  <data name="ASSETS_UpdateAsset_Image_Delete" xml:space="preserve">
+    <value>Purge image {0} completed successfully &lt;br /&gt;</value>
+  </data>
+  <data name="ASSETS_UpdateAsset_Image_NotExist" xml:space="preserve">
+    <value>The file {0} image {1} does not exist</value>
+  </data>
+  <data name="ASSETS_UpdateAsset_NotFound" xml:space="preserve">
+    <value>The asset you want to update does not exist in the database</value>
+  </data>
+  <data name="ASSETS_UpdateAsset_Video_Image_Delete" xml:space="preserve">
+    <value>Connection between the video asset {0} and {1} picture asset deleted. &lt;br /&gt;</value>
+  </data>
+  <data name="Asset_GetInfoFromMetadata_Exception" xml:space="preserve">
+    <value>Search the data in the XML version of the media failed to parameters ({0}, {1}, {2}) {3}</value>
+  </data>
+  <data name="Asset_ToXmlForMedia_Exception" xml:space="preserve">
+    <value>Infinite loop detected!</value>
+  </data>
+  <data name="BoodsLogger_Attribute_Message" xml:space="preserve">
+    <value>Error: Unable to access the data logger {0}</value>
+  </data>
+  <data name="BoodsLogger_GetDisplayInnserMessage" xml:space="preserve">
+    <value>Message from the InnerException: {0}</value>
+  </data>
+  <data name="BoodsLogger_GetDisplayMessage" xml:space="preserve">
+    <value>Message: {0}</value>
+  </data>
+  <data name="CompressAndSaveProcess_ProcessImage" xml:space="preserve">
+    <value>An error was encountered while compressing images: {0}</value>
+  </data>
+  <data name="CompressAndSaveProcess_SaveWithQualityFactor" xml:space="preserve">
+    <value>The image could not be generated. {0} The byte size is too small to generate the image.</value>
+  </data>
+  <data name="CONDUCTORS" xml:space="preserve">
+    <value>Retrieving conductors</value>
+  </data>
+  <data name="CONDUCTORS_Channel" xml:space="preserve">
+    <value>Retrieving channels</value>
+  </data>
+  <data name="ConnectSQL" xml:space="preserve">
+    <value>Server=.\SQLExpress;Integrated security=SSPI;database=master</value>
+  </data>
+  <data name="Context_NotValid" xml:space="preserve">
+    <value>The context passed as a parameter can not be considered as a context data BOODSEntities</value>
+  </data>
+  <data name="CroppingProcess_ProcessImage" xml:space="preserve">
+    <value>An error was encountered while fl attempted cropping: {0}</value>
+  </data>
+  <data name="ErreurBaseDonneesLog" xml:space="preserve">
+    <value>Error: Unable to enter the bose data logger</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="FIELDS" xml:space="preserve">
+    <value>Adding a Field</value>
+  </data>
+  <data name="Field_Valid_Exception" xml:space="preserve">
+    <value>optionValues ​​must be filled because the type of validator is OPTIONLIST.</value>
+  </data>
+  <data name="FILTERS_CreateFilter" xml:space="preserve">
+    <value>Creating the filter</value>
+  </data>
+  <data name="FILTERS_DeleteFilter" xml:space="preserve">
+    <value>Remove filter</value>
+  </data>
+  <data name="FILTERS_GetFiltersByUserName" xml:space="preserve">
+    <value>Recovery filters user {0}</value>
+  </data>
+  <data name="FILTERS_UpdateFilter" xml:space="preserve">
+    <value>Sauvergarde filter</value>
+  </data>
+  <data name="FORMATS_GetAllFormats_Full" xml:space="preserve">
+    <value>An error occurred innaltendue</value>
+  </data>
+  <data name="FORMATS_GetAllFormats_Short" xml:space="preserve">
+    <value>Retrieving formats</value>
+  </data>
+  <data name="FORMATS_GetTransformedImageFormats" xml:space="preserve">
+    <value>Retrieving formats scaled images</value>
+  </data>
+  <data name="FORMATS_InsertFormat_Full" xml:space="preserve">
+    <value>An error occurred innaltendue</value>
+  </data>
+  <data name="FORMATS_InsertFormat_Short" xml:space="preserve">
+    <value>Insert size</value>
+  </data>
+  <data name="ImageProcessingUtilities_CreateImage_Error" xml:space="preserve">
+    <value>The processing of the file failed. Error: {0}</value>
+  </data>
+  <data name="ImageProcessingUtilities_CreateImage_outputMessage" xml:space="preserve">
+    <value>No format has been specified</value>
+  </data>
+  <data name="ImageProcessingUtilities_CreateImage_outputMessage_Add" xml:space="preserve">
+    <value>The extension associated with the format file {0} is not given</value>
+  </data>
+  <data name="ImageProcessingUtilities_CreateImage_outputMessage_Logo" xml:space="preserve">
+    <value>The processing of the image could not be performed because the loading logo {0} [URL = {1}] failed: {2}</value>
+  </data>
+  <data name="ImageProcessingUtilities_CreateImage_outputMessage_ML" xml:space="preserve">
+    <value>The processing of the image could not be performed because the loading maie-louise {0} [URL = {1}] failed: {2}</value>
+  </data>
+  <data name="ImageProcessingUtilities_CreateImage_Url_Empty" xml:space="preserve">
+    <value>The url of the file is empty.</value>
+  </data>
+  <data name="Infinite_Loop_Exception" xml:space="preserve">
+    <value>Infinite loop detected!</value>
+  </data>
+  <data name="IniParser_File_NotFound_Exception" xml:space="preserve">
+    <value>Could not find {0}</value>
+  </data>
+  <data name="LocalTools_ApplicationEnd" xml:space="preserve">
+    <value>Stopping the application (time = {0}).</value>
+  </data>
+  <data name="LocalTools_ApplicationStart" xml:space="preserve">
+    <value>Start the application.</value>
+  </data>
+  <data name="LocalTools_CreateAssociation" xml:space="preserve">
+    <value>Creation Association {0} &lt;br/&gt; [Group publication = {4}] {5} &lt;br/&gt; &lt;br/&gt; {6} &lt;br/&gt; [Publication {2} = {7}] &lt;br / &gt; [Step {3} = {8}]</value>
+  </data>
+  <data name="LocalTools_CreateAutomaticPublication" xml:space="preserve">
+    <value>Automatic publication of media \ "{0} \" ({1}) on the heading \ "{2} \" ({3}) &lt;br/&gt; Group publication {4}, {5} step of publication.: {6}.</value>
+  </data>
+  <data name="LocalTools_CreateGroupPublication" xml:space="preserve">
+    <value>Creating group publications [Group Id = {0}; User = {1}] = {2} User</value>
+  </data>
+  <data name="LocalTools_CreatePlatform" xml:space="preserve">
+    <value>Creation of the platform [{0}: {1}].</value>
+  </data>
+  <data name="LocalTools_CreateProfil" xml:space="preserve">
+    <value>Profile creation \ "{0} \" (id = {1}, topics = [{2}]).</value>
+  </data>
+  <data name="LocalTools_CreatePublication" xml:space="preserve">
+    <value>Publication of media \ "{0} \" ({1}) on the topic \ "{2} \" ({3}) &lt;br/&gt; Group publication {4}, {5} step of publication. { 6}.</value>
+  </data>
+  <data name="LocalTools_CreatePublicationStep" xml:space="preserve">
+    <value>Creating steps publication [Group Id = {0}, Id = {1} steps, User = {2}]</value>
+  </data>
+  <data name="LocalTools_CreateRubric" xml:space="preserve">
+    <value>Creation of the section [{0}: {1}].</value>
+  </data>
+  <data name="LocalTools_CreateUser" xml:space="preserve">
+    <value>Creation of user [{0}].</value>
+  </data>
+  <data name="LocalTools_DeleteAssociation" xml:space="preserve">
+    <value>Suppression Association &lt;br/&gt; [Group publication = {0}] &lt;br/&gt; [Item = {1}] &lt;br/&gt; [Media = {2}]</value>
+  </data>
+  <data name="LocalTools_DeleteForcePlatform" xml:space="preserve">
+    <value>Forced removal of the platform [{0}] &lt;br/&gt; deleted [{1}] subheadings.</value>
+  </data>
+  <data name="LocalTools_DeleteForceRubric" xml:space="preserve">
+    <value>Remove the section [{0}] &lt;br/&gt; subheadings deleted [{1}].</value>
+  </data>
+  <data name="LocalTools_DeleteGroupPublication" xml:space="preserve">
+    <value>Deleting Group publication [Group Id = {0}; User = {1}]</value>
+  </data>
+  <data name="LocalTools_DeletePlatform" xml:space="preserve">
+    <value>Remove the platform [{0}].</value>
+  </data>
+  <data name="LocalTools_DeleteProfil" xml:space="preserve">
+    <value>Deleting profile \ "{0} \" (id = {1}).</value>
+  </data>
+  <data name="LocalTools_DeletePublication" xml:space="preserve">
+    <value>Remove the media publication {0} on {1} section. &lt;br/&gt; Group publication {2}, {3} Id publication.</value>
+  </data>
+  <data name="LocalTools_DeletePublicationStep" xml:space="preserve">
+    <value>Removal steps of publication [Group Id = {0}, Id = {1} steps, User = {2}]</value>
+  </data>
+  <data name="LocalTools_DeleteRubric" xml:space="preserve">
+    <value>Remove the section [{0}].</value>
+  </data>
+  <data name="LocalTools_DeleteUser" xml:space="preserve">
+    <value>Delete user [{0}].</value>
+  </data>
+  <data name="LocalTools_LoginFailure" xml:space="preserve">
+    <value>Failed Identification (User = {0}).</value>
+  </data>
+  <data name="LocalTools_ModifyPlatform" xml:space="preserve">
+    <value>Changing the platform [{0}: {1}].</value>
+  </data>
+  <data name="LocalTools_ModifyProfil" xml:space="preserve">
+    <value>Changing the profile \ "{0} \" (id = {1}, topics = [{2}]).</value>
+  </data>
+  <data name="LocalTools_ModifyPublication" xml:space="preserve">
+    <value>Publication of media \ "{0} \" ({1}) on the topic \ "{2} \" ({3}) &lt;br/&gt; Group publication {4}, {5} step of publication. { 6}.</value>
+  </data>
+  <data name="LocalTools_ModifyRenameProfil" xml:space="preserve">
+    <value>Changing the profile \ "{0} \", renamed \ "{1} \" (id = {2}, topics = [{3}]).</value>
+  </data>
+  <data name="LocalTools_ModifyRubric" xml:space="preserve">
+    <value>Changing the section [{0}: {1}].</value>
+  </data>
+  <data name="LocalTools_SessionEnd" xml:space="preserve">
+    <value>End of session (id = {0}, length = {1}).</value>
+  </data>
+  <data name="LocalTools_SessionStart" xml:space="preserve">
+    <value>Beginning of the session (id = {0}).</value>
+  </data>
+  <data name="LocalTools_UpdateUser" xml:space="preserve">
+    <value>Update user [{0}].</value>
+  </data>
+  <data name="LocalTools_UserConnect" xml:space="preserve">
+    <value>Login User {0} (sessionID = {1}).</value>
+  </data>
+  <data name="LocalTools_UserLogout" xml:space="preserve">
+    <value>Disconnecting the user {0} (sessionID = {1}).</value>
+  </data>
+  <data name="LoggerException" xml:space="preserve">
+    <value>Log error: {0}</value>
+  </data>
+  <data name="MessageErreurAccesFichier" xml:space="preserve">
+    <value>impossible to open or write to the file: {0}</value>
+  </data>
+  <data name="MessageTimeout" xml:space="preserve">
+    <value>Timeout: Can not access the mutex after {0} milliseconds</value>
+  </data>
+  <data name="ORGA_CreatePublications_Full" xml:space="preserve">
+    <value>An error was encountered while creating the publication</value>
+  </data>
+  <data name="ORGA_CreatePublications_Rule" xml:space="preserve">
+    <value>Rules in associaition:</value>
+  </data>
+  <data name="ORGA_CreatePublications_Short" xml:space="preserve">
+    <value>Creating publications</value>
+  </data>
+  <data name="ORGA_DeleteDiffusionEntite_Association_Error" xml:space="preserve">
+    <value>This entity is already associated with diffusion media can not be deleted</value>
+  </data>
+  <data name="ORGA_DeleteDiffusionEntite_Relation_Error" xml:space="preserve">
+    <value>An entity child had to be created from the opening broadcast of the screen, in this case the removal is impossible.</value>
+  </data>
+  <data name="ORGA_DeletePublication" xml:space="preserve">
+    <value>Unable to delete a nonexistent publication</value>
+  </data>
+  <data name="ORGA_DeletePublication_Full" xml:space="preserve">
+    <value>An error was encountered while deleting the publication of id {0}</value>
+  </data>
+  <data name="ORGA_DeletePublication_Short" xml:space="preserve">
+    <value>Deleting a publication</value>
+  </data>
+  <data name="ORGA_EntityDiffusion_NotFound" xml:space="preserve">
+    <value>Broadcasting entity not found.</value>
+  </data>
+  <data name="ORGA_GetEntiteDiffusion" xml:space="preserve">
+    <value>Insufficient permission to display this item.</value>
+  </data>
+  <data name="ORGA_GetFastSimulationXML_Exception" xml:space="preserve">
+    <value>Data recovery fast simulation</value>
+  </data>
+  <data name="ORGA_GetFastSimulationXML_Platform_NotExist" xml:space="preserve">
+    <value>The platform Id {0} does not exist.</value>
+  </data>
+  <data name="ORGA_GetPlateformeById" xml:space="preserve">
+    <value>This entity is not a platform because it has a parent section.</value>
+  </data>
+  <data name="ORGA_GetPlateformeById_Full" xml:space="preserve">
+    <value>Erreure is a surevenue</value>
+  </data>
+  <data name="ORGA_GetPlateformeById_Short" xml:space="preserve">
+    <value>Recovery palteforme {0}</value>
+  </data>
+  <data name="ORGA_GetPlateformeOfRubrique_Full" xml:space="preserve">
+    <value>Erreure is a surevenue</value>
+  </data>
+  <data name="ORGA_GetPlateformeOfRubrique_Short" xml:space="preserve">
+    <value>Recovery palteforme heading {0}</value>
+  </data>
+  <data name="ORGA_GetRubriquePurgeInfos_Full" xml:space="preserve">
+    <value>An error was encountered while rcupération information purge</value>
+  </data>
+  <data name="ORGA_GetRubriquePurgeInfos_Short" xml:space="preserve">
+    <value>Error retrieving information purge</value>
+  </data>
+  <data name="ORGA_GetSentVersionPropertiesByPlateformeId" xml:space="preserve">
+    <value>Retrieving SentVersionProperties</value>
+  </data>
+  <data name="ORGA_GetSousRubriques" xml:space="preserve">
+    <value>Recovery under headings {0}</value>
+  </data>
+  <data name="ORGA_InitializePublicationStatus" xml:space="preserve">
+    <value>Initialization publication</value>
+  </data>
+  <data name="ORGA_ModifyPublication" xml:space="preserve">
+    <value>Can not modify nonexistent publication</value>
+  </data>
+  <data name="ORGA_ModifyPublication_Full" xml:space="preserve">
+    <value>An error was encountered while changing the publication id {0}</value>
+  </data>
+  <data name="ORGA_ModifyPublication_Short" xml:space="preserve">
+    <value>Editing a publication</value>
+  </data>
+  <data name="ORGA_NoRight" xml:space="preserve">
+    <value>[No fee]</value>
+  </data>
+  <data name="ORGA_Platform" xml:space="preserve">
+    <value>platform</value>
+  </data>
+  <data name="ORGA_PourquoiCetteEntiteNePourraitPasEtreSupprimee_HasAttributes" xml:space="preserve">
+    <value>- The {0} has attriuts &lt;br /&gt;.</value>
+  </data>
+  <data name="ORGA_PourquoiCetteEntiteNePourraitPasEtreSupprimee_HasMedias" xml:space="preserve">
+    <value>- The media have been sent and are still present in the {0} &lt;br /&gt;.</value>
+  </data>
+  <data name="ORGA_PourquoiCetteEntiteNePourraitPasEtreSupprimee_HasPublications" xml:space="preserve">
+    <value>- Publications have been made ​​in this {0} &lt;br /&gt;.</value>
+  </data>
+  <data name="ORGA_PourquoiCetteEntiteNePourraitPasEtreSupprimee_HasRubrics" xml:space="preserve">
+    <value>- This {0} contains one or more sub-categories &lt;br /&gt;.</value>
+  </data>
+  <data name="ORGA_PourquoiCetteEntiteNePourraitPasEtreSupprimee_HasRules" xml:space="preserve">
+    <value>- Automatic rules use this {0} &lt;br /&gt;.</value>
+  </data>
+  <data name="ORGA_Rubric" xml:space="preserve">
+    <value>rubric</value>
+  </data>
+  <data name="ORGA_User_NotFound" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="PasteImageProcess_ProcessImage" xml:space="preserve">
+    <value>An error was encountered during the process of combining with another image: {0}</value>
+  </data>
+  <data name="Period_Type_Exception" xml:space="preserve">
+    <value>Unsupported type</value>
+  </data>
+  <data name="Platform_GetInfo" xml:space="preserve">
+    <value>Boods Export Context - Platform {0} (ID {1})</value>
+  </data>
+  <data name="Predicate_DropDownListValues_Exception" xml:space="preserve">
+    <value>The component type of filter is not a DropDownList</value>
+  </data>
+  <data name="ResizeProcess_ProcessImage" xml:space="preserve">
+    <value>an exception was encountered during redimenssionnement image: {0}</value>
+  </data>
+  <data name="RULES_ApplyRule" xml:space="preserve">
+    <value>The rule you want to apply does not exist.</value>
+  </data>
+  <data name="RULES_AppplicateAutomaticRules" xml:space="preserve">
+    <value>Application of automatic rule: {0}. The media {1} with the title: {2} was not associated with the rule {3} as no release date has been found valid. &lt;br /&gt;</value>
+  </data>
+  <data name="RULES_CreateEtapesPublication" xml:space="preserve">
+    <value>The start date and an end date were retrieved from the xml file then input the rules to use must be one step publication.</value>
+  </data>
+  <data name="RULES_CreateRule" xml:space="preserve">
+    <value>Rule creation</value>
+  </data>
+  <data name="RULES_DeleteRule_Full" xml:space="preserve">
+    <value>An error was encountered while deleting a rule.</value>
+  </data>
+  <data name="RULES_DeleteRule_Short" xml:space="preserve">
+    <value>Deleting a Rule</value>
+  </data>
+  <data name="RULES_GetImageRulesByRubriqueFiltrage" xml:space="preserve">
+    <value>Retrieving rules of images of category filter: {0}</value>
+  </data>
+  <data name="RULES_GetImageRulesIdByRubriqueFiltrage" xml:space="preserve">
+    <value>Retrieving rules of images of category filter: {0}</value>
+  </data>
+  <data name="RULES_UpdateRule_Full" xml:space="preserve">
+    <value>An error was encountered during the implementation of the rule {0}.</value>
+  </data>
+  <data name="RULES_UpdateRule_Short" xml:space="preserve">
+    <value>Update rule</value>
+  </data>
+  <data name="SCHD_GetFreeDiskSpace_Disk_Space" xml:space="preserve">
+    <value>Disk Space</value>
+  </data>
+  <data name="SCHD_GetFreeDiskSpace_Login_Password_NotCorrect" xml:space="preserve">
+    <value>Login or password incorrect.</value>
+  </data>
+  <data name="SCHD_GetFreeDiskSpace_Login_Password_NotCorrect_Full" xml:space="preserve">
+    <value>Login or incorrect password to connect to the remote machine ..</value>
+  </data>
+  <data name="SCHD_GetFreeDiskSpace_Machin_NotConnected" xml:space="preserve">
+    <value>Unable to connect to the machine.</value>
+  </data>
+  <data name="SCHD_GetPublicationsByLoadingTypeAndPlateformeId" xml:space="preserve">
+    <value>Retrieving publications platform {0}</value>
+  </data>
+  <data name="SCHD_ReinitializePublicationStatus" xml:space="preserve">
+    <value>Error when resetting the asset id {0}</value>
+  </data>
+  <data name="SqlAssetManager_SaveAsset_Exception" xml:space="preserve">
+    <value>Error saving the asset {0} of type {1}: {2}.</value>
+  </data>
+  <data name="SqlAssetManager_SaveAsset_Publication_Exception" xml:space="preserve">
+    <value>When you import the file, several nodes publications were found when he should find one. The application of automatic rules is not performed.</value>
+  </data>
+  <data name="SqlAssetManager_SaveAsset_Success" xml:space="preserve">
+    <value>Creating a publication made ​​successfully under {0} with the start date {1} and the end date {2} &lt;br /&gt;</value>
+  </data>
+  <data name="SqlFilterStorer_Context_NotExist" xml:space="preserve">
+    <value>To save folder does not exist in the database.</value>
+  </data>
+  <data name="SqlRuleStorer_NotValid" xml:space="preserve">
+    <value>Rule {0} does not exist.</value>
+  </data>
+  <data name="StringEnum_Exception" xml:space="preserve">
+    <value>Type provided must be an Enum. Type {0}</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>~ ~ Not Initialized</value>
+  </data>
+  <data name="Tools_SendMail_Exception" xml:space="preserve">
+    <value>The Sending message to {0} failed</value>
+  </data>
+  <data name="Tools_SendMail_Warning_Full" xml:space="preserve">
+    <value>The Sending of message failed</value>
+  </data>
+  <data name="Tools_SendMail_Warning_Short" xml:space="preserve">
+    <value>Re-sending in 5 seconds</value>
+  </data>
+  <data name="Tools_TimeSpan_Format_Day" xml:space="preserve">
+    <value>{0} day</value>
+  </data>
+  <data name="Tools_TimeSpan_Format_Days" xml:space="preserve">
+    <value>{0} days</value>
+  </data>
+  <data name="Tools_TimeSpan_Format_Hour" xml:space="preserve">
+    <value>{0} hours</value>
+  </data>
+  <data name="Tools_TimeSpan_Format_Hours" xml:space="preserve">
+    <value>{0} hours</value>
+  </data>
+  <data name="Tools_TimeSpan_Format_Minute" xml:space="preserve">
+    <value>{0} minute</value>
+  </data>
+  <data name="Tools_TimeSpan_Format_Minutes" xml:space="preserve">
+    <value>{0} minutes</value>
+  </data>
+  <data name="Tools_TimeSpan_Format_Second" xml:space="preserve">
+    <value>{0} second</value>
+  </data>
+  <data name="Tools_TimeSpan_Format_Seconds" xml:space="preserve">
+    <value>{0} seconds</value>
+  </data>
+  <data name="ASSETS_AddAssetsToBasket_Success" xml:space="preserve">
+    <value>Medias are successfully added to cart.</value>
+  </data>
+  <data name="SCHD_CreateAssociations" xml:space="preserve">
+    <value>Automatic association</value>
+  </data>
+  <data name="SCHD_CreateAssociations_Rule" xml:space="preserve">
+    <value>Import rule: {0}</value>
+  </data>
+</root>

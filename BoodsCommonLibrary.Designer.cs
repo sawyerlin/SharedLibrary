@@ -808,7 +808,7 @@ namespace Boods.en_US {
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à Publication of media \ &quot;{0} \&quot; ({1}) on the topic \ &quot;{2} \&quot; ({3}) &lt;br/&gt; Group publication {4}, {5} step of publication. { 6}..
+        ///   Recherche une chaîne localisée semblable à Publication of media \ &quot;{0} \&quot; ({1}) on the topic \ &quot;{2} \&quot; ({3}) &lt;br/&gt; Group publication {4}, {5} step of publication. {6}..
         /// </summary>
         internal static string LocalTools_CreatePublication {
             get {
@@ -1285,7 +1285,7 @@ namespace Boods.en_US {
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à [No fee].
+        ///   Recherche une chaîne localisée semblable à [No Right].
         /// </summary>
         internal static string ORGA_NoRight {
             get {

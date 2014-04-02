@@ -364,7 +364,7 @@
     <value>Profile creation \ "{0} \" (id = {1}, topics = [{2}]).</value>
   </data>
   <data name="LocalTools_CreatePublication" xml:space="preserve">
-    <value>Publication of media \ "{0} \" ({1}) on the topic \ "{2} \" ({3}) &lt;br/&gt; Group publication {4}, {5} step of publication. { 6}.</value>
+    <value>Publication of media \ "{0} \" ({1}) on the topic \ "{2} \" ({3}) &lt;br/&gt; Group publication {4}, {5} step of publication. {6}.</value>
   </data>
   <data name="LocalTools_CreatePublicationStep" xml:space="preserve">
     <value>Creating steps publication [Group Id = {0}, Id = {1} steps, User = {2}]</value>
@@ -523,7 +523,7 @@
     <value>Editing a publication</value>
   </data>
   <data name="ORGA_NoRight" xml:space="preserve">
-    <value>[No fee]</value>
+    <value>[No Right]</value>
   </data>
   <data name="ORGA_Platform" xml:space="preserve">
     <value>platform</value>
